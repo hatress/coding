@@ -16,3 +16,33 @@
 
 .frm-ian:hover .frm-ian1 {transition: 1s; opacity: 0;}
 .frm-ian:hover .frm-ian11 {opacity: 1; transition: 1s;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+.ianf {width: 270px; height: 270px; margin: 0 auto; border: 20px solid #111; overflow: hidden; position: relative;}
+.ianf2 {width: 270px; height: 270px; background-image: url(https://i.imgur.com/fyNqtJz.jpg);background-size: cover; background-position: center; box-sizing: border-box; display: flex; align-items: center; position: absolute; overflow: hidden;}
+
+.ianf4 {transition: 1s; transition-delay: .3s; width: 100%; height: 100%; display: flex; align-items: center;}
+.ianf2:hover .ianf4 {background-color: rgba(0,0,0, .6); transtion: 1s; transition-delay: .3s;}
+.ianf2:hover .ianf3 {left: 0px; transition: 1s; opacity: 1; transition-delay: .3s;}
+.ianf3 {font-family: 'Gabarito', sans-serif; text-transform: uppercase; width: 100%; color: white; letter-spacing: 2px; font-size: 9px; text-align: justify; padding: 30px; box-sizing: border-box; position: relative; font-weight: 700; line-height: 150%; left: -300px; transition: 1s; opacity: 0; transition-delay: .3s;}
+.ianf3 b {background: #07555e; padding: 1px; animation-name: parpadeo; animation-duration: 5s; animation-timing-function: linear; animation-iteration-count: infinite; -webkit-animation-name: parpadeo; -webkit-animation-duration: 5s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite;}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
