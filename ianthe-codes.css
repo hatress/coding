@@ -53,7 +53,7 @@
 #ianbaul {width: 900px; height: 600px; margin: 0 auto; border-box: box-sizing; border: 2px solid #111; background: #080808;}
 .ianbaul1 {width: 100%; box-sizing: border-box; position: relative;  display: flex; justify-content: flex-end;}
 .ianbaul2 {width: 100%; box-sizing: border-box; position: relative; display: flex; flex-direction: column;}
-.ianb-img {width: 450px; height: 600px; background-image: url(https://i.imgur.com/J47BLDd.png); background-size: cover; background-position: center; position: absolute; mix-blend-mode: lighten;}
+.ianb-img {width: 450px; height: 600px; background-image: url(https://i.imgur.com/Ls9QPdM.png); background-size: cover; background-position: center; position: absolute; mix-blend-mode: lighten;}
 .ianbox3 {width: 100%; position: relative; box-sizing: border-box; height: 100px; border-bottom: 2px solid #111; background: #000; display: flex; align-items: center; justify-content: space-between;}
 .iangif {width: 100px; height: 100px; background-image: url(https://44.media.tumblr.com/d86617cd15e0413bf12673f3c69db0b6/898be1331ecf8a52-54/s540x810_f1/a0c399702e69880704781297357a14bda24ef0ad.gifv); background-size: cover; background-position: center;}
 .ianbox1 {width: 100%; box-sizing: border-box; position: relative; height: 300px; display: flex; align-items: center;}
