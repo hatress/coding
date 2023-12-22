@@ -86,3 +86,9 @@
 .ianf20 .ianf33 {left: 0px; transition: 1s; opacity: 1; transition-delay: .3s;}
 .ianf33 {font-family: 'JetBrains Mono', monoscope; text-transform: uppercase; width: 120px; color: #ddd; letter-spacing: 2px; font-size: 9px; text-align: justify; padding: 30px; box-sizing: border-box; position: relative; font-weight: 700; line-height: 150%; left: -300px; transition: 1s; opacity: 0; transition-delay: .3s;}
 .ianf33 b {background: #07555e; padding: 1px;}
+
+/*EREN FIRMA*/
+.erenfrm2 {width: 300px; height: 240px; box-sizing: border-box; background: #595e07; mix-blend-mode: multiply; opacity: 0; transition: .6s;}
+.erenfrm3 {font-family: 'Oswald', sans-serif; color: #fff; mix-blend-mode: normal; width: 100%; box-sizing: border-box; padding: 30px; height: 240px; font-size: 11px; text-transform: uppercase; text-align: justify; opacity: 0; transition: .6s; top: 0; position: relative;}
+.erenfrm:hover .erenfrm2 {transition: .6s; opacity: 1;}
+.erenfrm:hover .erenfrm3 {top: -175px; opacity: 1; transition: .6s}
