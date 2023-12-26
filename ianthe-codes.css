@@ -88,7 +88,7 @@
 .ianf33 b {background: #07555e; padding: 1px;}
 
 /*EREN FIRMA*/
-.erenfrm {width: 300px; height: 240px; border: 15px solid #151515; background: url(https://i.imgur.com/UzboMEI.png); margin: 0 auto; outline: 1px solid #595e07;}
+.erenfrm {width: 300px; height: 240px; border: 15px solid #151515; background: url(https://i.imgur.com/UzboMEI.png); margin: 0 auto; outline: 1px solid #595e07; overflow: hidden;}
 .erenfrm2 {width: 300px; height: 240px; box-sizing: border-box; background: #595e07; mix-blend-mode: multiply; opacity: 0; transition: .6s;}
 .erenfrm3 {font-family: 'Oswald', sans-serif; color: #fff; mix-blend-mode: normal; width: 100%; box-sizing: border-box; padding: 30px; height: 240px; font-size: 11px; text-transform: uppercase; text-align: justify; opacity: 0; transition: .6s; top: 0; position: relative;}
 .erenfrm:hover .erenfrm2 {transition: .6s; opacity: 1;}
