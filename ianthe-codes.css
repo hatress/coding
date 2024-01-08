@@ -97,7 +97,7 @@
 .f-didis {width: 320px; height: 200px; margin: 0 auto; border: 1px solid #595E07; outline: 8px solid #181818; position: relative; display: flex; align-items: center; overflow: hidden;}
 
 .f-didimg {width: 200px; height: 200px; background-image: url(https://i.imgur.com/D5lf7N7.png);}
-.didistext {width: 120px; height: 200%; box-sizing: border-box; padding: 25px; background-color: #111; transition: .6s; line-height: 120%; display: flex;
+.didistext {width: 120px; height: 200px; box-sizing: border-box; padding: 25px; background-color: #111; transition: .6s; line-height: 120%; display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;}
