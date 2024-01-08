@@ -97,10 +97,14 @@
 .f-didis {width: 320px; height: 200px; margin: 0 auto; border: 1px solid #595E07; outline: 8px solid #181818; position: relative; display: flex; align-items: center; overflow: hidden;}
 
 .f-didimg {width: 200px; height: 200px; background-image: url(https://i.imgur.com/D5lf7N7.png);}
-.didistext {width: 120px; height: 100%; box-sizing: border-box; padding: 25px; background-color: #111; transition: .6s;}
-.fdidi-txt {color: #595E07; font-size: 10px; font-family: 'Tektur'; text-transform: uppercase; text-align: justify; font-weight: 600; display: flex; align-items: center;}
+.didistext {width: 120px; height: 200%; box-sizing: border-box; padding: 25px; background-color: #111; transition: .6s; line-height: 120%; display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+.fdidi-txt {color: #595E07; font-size: 10px; font-family: 'Tektur'; text-transform: uppercase; text-align: justify; font-weight: 600;position: relative;
+    top: 55%;}
 
-.fdiditx {width: 120px; height: 200px; opacity: 0; font-family: 'Tektur'; font-size: 10px; text-transform: uppercase; text-align: justify; color: #fff; font-weight: 600; transition: .6s; position: relative; padding: 25px; box-sizing:border-box; left: -25px; top: -120px;}
+.fdiditx {width: 120px; height: 200px; opacity: 0; font-family: 'Tektur'; font-size: 10px; text-transform: uppercase; text-align: justify; color: #fff; font-weight: 600; transition: .6s; position: relative; padding: 25px; box-sizing:border-box; top: -40%;}
 
 .didistext:hover .fdiditx {opacity: 1; transition: .6s;}
 .didistext:hover {background-color: #595E07; background-blend-mode: multiply; background-image: url(https://i.imgur.com/MZK6zLG.png);}
