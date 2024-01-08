@@ -91,3 +91,18 @@
 .erenfrm3 {font-family: 'Oswald', sans-serif; color: #fff; mix-blend-mode: normal; width: 100%; box-sizing: border-box; padding: 30px; height: 240px; font-size: 11px; text-transform: uppercase; text-align: justify; opacity: 0; transition: .6s; top: 0; position: relative;}
 .erenfrm:hover .erenfrm2 {transition: .6s; opacity: 1;}
 .erenfrm:hover .erenfrm3 {top: -175px; opacity: 1; transition: .6s}
+
+/*FIRMA DIDIS*/
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+.f-didis {width: 320px; height: 200px; margin: 0 auto; border: 1px solid #595E07; outline: 8px solid #181818; position: relative; display: flex; align-items: center; overflow: hidden;}
+
+.f-didimg {width: 200px; height: 200px; background-image: url(https://i.imgur.com/D5lf7N7.png);}
+.didistext {width: 120px; height: 100%; box-sizing: border-box; padding: 25px; background-color: #111; transition: .6s;}
+.fdidi-txt {color: #595E07; font-size: 11px; font-family: 'Tektur'; text-transform: uppercase; text-align: justify; font-weight: 600; display: flex; align-items: center; margin-top: 10px;}
+
+.fdiditx {width: 120px; height: 200px; opacity: 0; font-family: 'Tektur'; font-size: 11px; text-transform: uppercase; text-align: justify; color: #fff; font-weight: 600; transition: .6s; position: relative; padding: 25px; box-sizing:border-box; left: -25px; top: -150px;}
+
+.didistext:hover .fdiditx {opacity: 1; transition: .6s;}
+.didistext:hover {background-color: #595E07; background-blend-mode: multiply; background-image: url(https://i.imgur.com/MZK6zLG.png);}
+.didistext:hover .fdidi-txt {opacity: 0; transition: .6s;}
+
