@@ -111,13 +111,4 @@
 .didistext:hover {background-color: #595E07; background-blend-mode: multiply; background-image: url(https://i.imgur.com/MZK6zLG.png);}
 .didistext:hover .fdidi-txt {opacity: 0; transition: .6s;}
 
-/*TABLILLA POST IAN*/
-@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap')
-.tab-ian {width: 550px; background: #060606; border: 2px solid var(--general); margin: 0 auto; padding: 15px 0; box-sizing: border-box;} 
-.tab-ian > .header {width: 100%; display: flex; justify-content: flex-end; box-sizing: border-box; margin-bottom: 15px; align-items: center;}
-.tian-tit {width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px 40px; border-top: 2px solid var(--general); border-bottom: 2px solid var(--general); box-sizing: border-box; }
-.tian-tit > .tian-t {width: 100%; font-family: 'taurunum', sans-serif; font-size: 65px; color:transparent; text-transform: uppercase; -webkit-text-stroke: 1px var(--gea); line-height: 100%; text-align: center;}
-.tian-tit > .tian-song {width: 100%; font-family: "Sono", monospace; text-transform: uppercase; color: #333!important; font-size: 10px; line-height: 100%; text-align: justify; margin-top: 10px;}
-.header > .dat {padding: 0 15px; color: var(--gea); margin: 2px; border-radius: 1.5em; text-transform: uppercase; font-family: "Sono", monospace; font-size: 11px; font-weight: 500;}
-.header span {color: #222; font-weight: bold;}
-.tab-ian > .text {padding: 50px; box-sizing: border-box; width: 100%; font-size: 12px; color: #666; text-align: justify; line-height: 170%;}
+
