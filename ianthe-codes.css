@@ -113,8 +113,22 @@
 
 
 /*TABLILLA POST IAN*/
-.post-ian {width: 550px; background: #060606; border: 2px solid var(--general); margin: 0 auto; padding: 15px 0; box-sizing: border-box;} 
-.post-ian > .header {width: 100%; display: flex; justify-content: flex-end; box-sizing: border-box; margin-bottom: 15px; align-items: center;}
+.post-ian {
+  width: 550px; 
+  background: #060606; 
+  border: 2px solid var(--general); 
+  margin: 0 auto;
+  padding: 15px 0;
+  box-sizing: border-box;
+} 
+.post-ian > .header {
+  width: 100%; 
+  display: flex; 
+  justify-content: flex-end; 
+  box-sizing: border-box; 
+  margin-bottom: 15px; 
+  align-items: center;
+}
 .tian-tit {width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px 40px; border-top: 2px solid var(--general); border-bottom: 2px solid var(--general); box-sizing: border-box; }
 .tian-tit > .tian-t {width: 100%; font-family: 'taurunum', sans-serif; font-size: 65px; color:transparent; text-transform: uppercase; -webkit-text-stroke: 1px var(--gea); line-height: 100%; text-align: center;}
 .tian-tit > .tian-song {width: 100%; font-family: "Sono", monospace; text-transform: uppercase; color: #333!important; font-size: 10px; line-height: 100%; text-align: justify; margin-top: 10px;}
