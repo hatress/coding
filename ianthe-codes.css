@@ -112,6 +112,7 @@
 .didistext:hover .fdidi-txt {opacity: 0; transition: .6s;}
 
 /*TABLILLA POST IAN*/
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap')
 .tab-ian {width: 600px; background: #060606; border: 2px solid var(--general); margin: 0 auto; padding: 15px 0; box-sizing: border-box;} 
 .tab-ian > .header {width: 100%; display: flex; justify-content: flex-end; box-sizing: border-box; margin-bottom: 15px; align-items: center;}
 .tian-tit {width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px 40px; border-top: 2px solid var(--general); border-bottom: 2px solid var(--general); box-sizing: border-box; }
