@@ -135,3 +135,22 @@
 .header > .dat {padding: 0 15px; color: var(--gea); margin: 2px; border-radius: 1.5em; text-transform: uppercase; font-family: "Sono", monospace; font-size: 11px; font-weight: 500;}
 .header span {color: #222; font-weight: bold;}
 .tian-tx {padding: 50px; box-sizing: border-box; width: 100%; font-size: 13px; color: #666; text-align: justify; line-height: 170%;}
+
+
+/*TABLILLA POST HART*/
+
+.hartpost {width: 600px; background-color: #0b0b0b; margin: 0 auto;color: #777; font-family: 'Noto Sans', sans-serif; font-size: 13px; box-sizing: border-box; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;}
+.hartwith {width: 100%; box-sizing: border-box; display: flex; align-items: center; padding: 80px 80px 55px 80px;}
+.withpj {width: 100%; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 12px; text-transform: uppercase; color: var(--gea); font-weight: 900; letter-spacing: 2px; margin-left: 40px;}
+.terra .withpj {color: var(--terra);}
+.hybrid .withpj {color: var(--hybrid);}
+.hartgif {width: 50px; height: 50px; border-left: 1px solid transparent; border-radius: 100%; box-shadow: 0 0 30px var(--gea); border: 1px solid rgba(43, 92,113, .35);}
+.terra .hartgif {border: 1px solid rgba(43,113,87, .35); box-shadow: 0 0 30px var(--terra);}
+.hybrid .hartgif {border: 1px solid rgba(75,55,110, .35); box-shadow: 0 0 30px var(--hybrid);}
+.hartgif img {width: 50px; height: 50px; object-fit: cover; object-position: center; border-radius: 100%;}
+.hartitle {width: 100%; box-sizing: border-box; padding: 0 80px; font-family: 'Geologica'; text-transform: uppercase; color: #bdbdbd; font-size: 70px; letter-spacing: 5px; line-height: 85%; font-weight:500;}
+.hartdate {width: 100%; box-sizing: border-box; padding: 0 80px; display: flex; align-items: center; margin-top: 60px;}
+.hartline {width: 65%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-right: 150px solid #222;}
+.hartline2 {width: 80%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-left: 150px solid #222;}
+.hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 10px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
+.harttext {width: 100%; padding: 55px 80px 80px 80px; box-sizing: border-box; text-align: justify;}
