@@ -1,5 +1,4 @@
 /*TABLILLA POST HART*/
-
 .hartpost {width: 600px; background-color: #0b0b0b; margin: 0 auto;color: #777; font-family: 'Noto Sans', sans-serif; font-size: 13px; box-sizing: border-box; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;}
 .hartwith {width: 100%; box-sizing: border-box; display: flex; align-items: center; padding: 80px 80px 55px 80px;}
 .withpj {width: 100%; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 12px; text-transform: uppercase; color: var(--gea); font-weight: 900; letter-spacing: 2px; margin-left: 40px;}
