@@ -1,0 +1,121 @@
+/*BAUL PLANTILLA*/
+:root {
+  --cas: #402038;
+  --textobase: #a6a6a6;
+  --cam: #1E364D;
+  --hos: #28402C;
+}
+
+.rb1 {width: 800px; height: 450px; border: 1px solid #111; margin: 0 auto; display: flex;}
+.rb1-i {width: 300px; height: 450px; position: relative; border-right: 1px solid #111;}
+.rb1-i2 {width: 300px; height: 450px; position: absolute; background: url(https://i.pinimg.com/736x/9c/44/ae/9c44aee828393b294a6b56dfe3b89ec5.jpg); background-position: center; background-size: 200%; filter: grayscale(100%) brightness(25%); -webkit-filter: grayscale(100%) brightness(25%); -moz-filter: grayscale(100%) brightness(25%); overflow: hidden;}
+.rb1-i:hover .rb1-i3 {transition: .7s; opacity: 1;}
+.rb1-i3 {backdrop-filter: blur(10px); background: rgba(64,32,56, .5); position: relative; opacity: 0; width: 100%; height: 100%; padding: 30px 60px; box-sizing: border-box; display: flex; justify-content: center; align-items: center;}
+.ri3-1 {font-family: 'Kode Mono', monospace; font-size: 10px; text-transform: uppercase; color: #fff; letter-spacing: 3px; text-align: justify; line-height: 180%;}
+.ri3-2, .ri3-3 {font-family: "Bodoni Moda", serif; font-size: 25px; color: #fff; text-align: left; text-transform: uppercase; margin-bottom: 30px; display: flex; letter-spacing: -1px; font-weight: 600;}
+.ri3-3 {text-align: right !important; margin-bottom: 0 !important; margin-top: 30px !important;}
+.ri3-2:after {content: ''; margin-left: 25px; width: 100%; height: 1px; background: #fff; position: relative; box-sizing: border-box; flex-grow: 1; top: 17px;}
+.ri3-3:before {content: ''; margin-right: 25px; width: 100%; height: 1px; background: #fff; position: relative; box-sizing: border-box; flex-grow: 1; top: 17px;}
+.rb2 {width: 100px; height: 100%; border-right: 1px solid #111; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.rb2 stat {width: 100%; height: 20%; box-sizing: border-box; padding: 10px; font-family: 'Roboto', sans-serif; color: var(--cas); text-align: center; text-transform: uppercase; border-bottom: 1px solid #111; font-size: 11px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.rb2 stat num {font-family: "Bodoni Moda", serif; font-size: 25px; color: var(--textobase);}
+.rb3 {width: 400px; box-sizing: border-box; height: 100%; display: flex; flex-direction: column;}
+.rb3-1 {width: 100%; height: 400px; box-sizing: border-box; position: relative;}
+.rb3-im {width: 100%; height: 100%; background: url(https://64.media.tumblr.com/5f62e76cd4dd49bd1fc216e6c7a3fd4c/7b338c44c4bfa26e-28/s640x960/a215ce8a67a146cf4abed0010481cb642c5e2b0e.gifv); background-size: cover; background-position: center; filter: grayscale(100%) brightness(15%); -webkit-filter: grayscale(100%) brightness(15%); -moz-filter: grayscale(100%) brightness(15%); position: absolute;}
+.rb3-12 {width: 100%; height: 100%; box-sizing: border-box; position: relative; display: flex; flex-direction: column;}
+.rb3-ap1 {width: 100%; box-sizing: border-box; height: 60px; border-bottom: 1px solid #111; backdrop-filter: blur(5px); display: flex; align-items: center;}
+.rb3-ap {width: 80%; font-family: 'Bodoni Moda', serif; font-size: 15px; letter-spacing: 15px; color: var(--textobase); text-transform: uppercase; font-weight: 300; padding: 0 20px;}
+.rb3-ic {border-left: 1px solid #111; width: 20%; height: 100%; box-sizing: border-box; color: var(--cas); font-size: 20px; display: flex; align-items: center; justify-content: center;}
+.rb3-11 {width: 100%; height: 290px;}
+.rb3-3 {width: 100%; height: 50px; box-sizing: border-box; padding: 15px; color: var(--textobase); text-transform: uppercase; font-family: "Bodoni Moda", serif; text-align: center; letter-spacing: 5px; font-size: 10px; border-top: 1px solid #111; backdrop-filter: blur(10px);}
+.rb3-3 su {border-bottom: 1px solid var(--cas);}
+.rb3-4 {border-top: 1px solid #111; width: 100%; height: 50px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; position: relative;}
+.rb3-4e {width: 35%; height: 50px; font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center; color: var(--cas); box-sizing: border-box; border-left: 1px solid #111; display: flex; align-items: center; justify-content: center; opacity: 1;}
+.rb3-4e:hover .rb3-4e2 {transition: 1s; opacity: 1;}
+.rb3-4e span {position: absolute;}
+.rb3-4e2 {backdrop-filter: blur(10px); background: rgba(64,32,56, .5); position: relative; opacity: 0; width: 100%; height: 100%; box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-family: 'Kode Mono', monospace; font-size: 9px; text-transform: uppercase; color: #fff; letter-spacing: 2px; text-align: justify;}
+.rb3-4e a, .rb3-4e a:visited {color: var(--textobase); text-decoration: none;}
+
+/*-- CRONO -- */
+.rc1 {width: 800px; height: auto; border: 1px solid #111; margin: 0 auto; display: flex; flex-direction: column; position: relative; }
+.rc1-back {width: 100%; height: 100%; background: url(https://i.pinimg.com/736x/0e/63/54/0e6354325a6993a5d59550ff8a56d4a9.jpg); position: absolute; background-size: cover; background-position: center; filter: grayscale(100%) brightness(15%); -webkit-filter: grayscale(100%) brightness(15%); -moz-filter: grayscale(100%) brightness(15%);}
+.rc1-1 {width: 100%; height: 60px; box-sizing: border-box; backdrop-filter: blur(10px); border-bottom: 1px solid #111; display: flex; align- items: center; justify-content: center;}
+.rc1-1n {width: 85%; font-family: 'Bodoni Moda', serif; font-size: 15px; color: var(--textobase); text-transform: uppercase; font-weight: 300;padding: 0 30px; display: flex; align-items: center;}
+.rc1-1i {width: 15%; height: 100%; display: flex; align-items: center; justify-content: center; color: var(--cas); border-left: 1px solid #111; box-sizing: border-box; padding: 20px; text-align: center; font-size: 25px;}
+.rc1-2 {width: 100%; height: 450px; display: flex; justify-content: space-around; flex-wrap: wrap;}
+.rc1-2t {width: 50%; height: 100%; box-sizing: border-box; backdrop-filter: blur(3px);border-right: 1px solid #111;}
+.rc1-2tt {width: 100%; height: 10%; box-sizing: border-box; padding: 10px; background: rgba(64,32,56, .3); color: var(--textobase); font-family: 'Kode Mono', monospace; font-size: 10px; text-transform: uppercase; color: #fff; letter-spacing: 2px; text-align: center; display: flex; align-items: center; justify-content: center;}
+.rc1-2tb {width: 100%; height: 90%; box-sizing: border-box; overflow: auto; display: flex; flex-direction: column;}
+.rtbl {width: 100%; height: 70px; font-family: 'Roboto', sans-serif; color: var(--textobase); font-size: 11px; text-transform: uppercase; box-sizing: border-box; border-bottom: 1px solid #111; display: flex; align-items: center;}
+.rtbl > .open, .rtbl > .closed {width: 10%; height: 100%; box-sizing: border-box; padding: 15px; color: var(--cas); border-right: 1px solid #111; display: flex; align-items: center; justify-content: center;}
+.closed:before {content: "\e222"; font-family: "Phosphor" !important; font-size: 17px; color: #333;}
+.open:before {content: "\e220"; font-family: "Phosphor" !important; font-size: 17px;}
+.rtbl-2 {width: 50%; height: 100%; box-sizing: border-box; border-right: 1px solid #111; display: flex; flex-direction: column;}
+.rtbl-2 enl {width: 100%; height: 50%; box-sizing: border-box; border-bottom: 1px solid #111; padding: 10px 15px;}
+.rtbl-2 enl a, .rtbl-2 enl a:visited {color: var(--textobase);}
+.rtbl-2 inf {width: 100%; height: 50%; box-sizing: border-box; padding: 10px 15px; font-family: 'Kode Mono', monospace; font-size: 10px; letter-spacing: 3px; color: var(--cas);}
+.rtbl-3 {width: 25%; height: 100%; display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 15px; font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 800;}
+.cas .rtbl-3 {color: var(--cas);}
+.cam .rtbl-3 {color: var(--cam);}
+.rtbl-d {width: 15%; height: 100%; box-sizing: border-box; padding: 15px; font-family: "Bodoni Moda", serif; font-size: 15px; display: flex; aling-items: center; justify-content: center; border-right: 1px solid #111; text-align: center;}
+
+/* -- RELAS --*/
+.rr1 {width: 100%; height: auto; box-sizing: border-box; display: flex; flex-wrap: wrap;}
+.rr1-pj {width: 33%; height: 300px; box-sizing: border-box; position: relative; border-left: 1px solid #111;}
+.rr1-pj img {position: absolute; width: 100%; height: 300px; object-fit: cover; object-position: center; filter: grayscale(100%) brightness(35%); -webkit-filter: grayscale(100%) brightness(35%); -moz-filter: grayscale(100%) brightness(35%);}
+.rr1-pj:hover .rrpj {transition: .7s; opacity: 1;}
+.rrpj {backdrop-filter: blur(5px); background: rgba(76, 17, 12, .5); position: relative; opacity: 0; width: 100%; height: 100%; padding: 30px 60px; box-sizing: border-box; display: flex; justify-content: center; align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--textobase); text-transform: uppercase; }
+.cas.rrpj {background: rgba(64,32,56, .5);}
+.cam.rrpj {background: rgba(30,54,77, .5);}
+.hos.rrpj {background: rgba(40,64, 4, .5);}
+.rrpj-n {font-family: 'Bodoni Moda', serif; font-size: 20px; text-align: center; padding-bottom: 8px; border-bottom: 1px solid var(--textobase);}
+.rrpj-m {font-family: 'Kode Mono', monospace; margin-top: 8px; font-size: 10px; letter-spacing: 2px;}
+
+/* -- JIN BAUL --*/
+:root {
+  --border1: 1px solid #151515;
+  --fondo2: #0a0a0a;
+  --cas: #402038;
+  --cas2: #4c3145;
+  --textobase: #a6a6a6;
+}
+.jin-box1 {border: var(--border1); width: 800px; height: auto; max-height: 100%; max-width: 100%; margin: 0 auto; display: flex; flex-direction: column; box-sizing: border-box; align-items: center;}
+.line1, .line3 {width: 100%; box-sizing: border-box; display: flex; align-items: center; justify-content: center;}
+.line3 {padding: 25px; align-items: flex-start;}
+.line4 {width: 100%; height: 400px; padding: 60px 25px 40px 25px; box-sizing: border-box; display: flex; justify-content: center;}
+.line2 {width: 100%; box-sizing: border-box; padding: 0px 60px; text-align: center; color: var(--textobase); font-family: "Instrument Serif", serif; font-size: 10px; text-transform: uppercase; letter-spacing: 3px;}
+.line2 span {color: var(--cas); font-size: 30px; padding-right: 5px;}
+.l-left {width: 35%; height: 350px; box-sizing: border-box; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.l-center {width: 30%; height: 300px; box-sizing: border-box; padding: 20px 0px;}
+.l-c1 {width: 100%; height: 100%; padding: 15px; border: 1px solid #151515; box-sizing: border-box; border-radius: 60%;}
+.l-cimg {width: 100%; height: 100%; background: url(https://i.pinimg.com/1200x/31/de/5a/31de5ac2648be26fcf3e772d3d4d0069.jpg); background-size: cover; background-position: center; filter: contrast(80%) brightness(37%); border-radius: 60%; outline: 1px solid #151515; }
+.l-cimg:hover .l-cc{transition: .7s; opacity: 1;}
+.l-cc {width: 100%; height: 100%; border-radius: 60%; backdrop-filter: blur(5px); background: rgba(64,32,56, .5); position: relative; opacity: 0; transition: .7s;}
+.l-ccnm {width: 100%; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 15px;}
+.l-cintl {color: #fff; font-family: "UnifrakturMaguntia", cursive; font-size: 55px; border-radius: 50%; }
+.l-ltitle {font-family: "UnifrakturMaguntia", cursive; color: #eee; text-transform: lowercase; font-size: 40px;}
+.l-ltitle i {color: #eee; font-size: 25px; padding-right: 10px;}
+.l-cnsur {font-family: "Geo", sans-serif; color: #fff; text-transform: uppercase; font-size: 11px; letter-spacing: 2px; text-align: center; letter-spacing: 2px;}
+.l-lline {width: 100%; height: 1px; background: #151515;}
+.l-lsong {font-family:'Geo', sans-serif ; font-size: 10px; text-transform: uppercase; color: var(--cas); letter-spacing: 2px; padding-bottom: 8px;}
+.l-lextra {width: 100%; padding: 15px 35px; box-sizing: border-box; font-family: 'Roboto', sans-serif; color: var(--textobase); font-size: 9px; text-align: justify; line-height: 110%;}
+.l-lextra i {color: var(--cas2);}
+.l-lextra b {color: var(--cas2);}
+.l3b1 {width: 25%; border: 1px solid #111; box-sizing: border-box; padding: 10px; background: var(--fondo2); color: var(--cas); font-family: "UnifrakturMaguntia", cursive; font-size: 20px; text-align: center; margin-right: 5px;}
+.l4back {width: 40%; height: 100%; border: 1px solid #111; position: relative; }
+.l4back img {position: absolute; width: 100%; height: 100%; filter: grayscale(100%) contrast(80%) brightness(20%); object-position: center; object-fit: cover;}
+.l4b-box {width: 100%; height: 100%; overflow: auto; padding: 0 60px; position: relative; text-align: justify; line-height: 180%; display: flex; flex-direction: column; justify-content: center; box-sizing: border-box;}
+.l4b-txt {font-family: 'Geo', sans-serif; color: var(--cas); font-size: 17px; box-sizing: border-box; border-bottom: 1px solid #222; width: 100%; margin: 5px 0;}
+.l4b-txt i {color: var(--textobase); padding-right: 10px; font-size: 13px;}
+.l4right {width: 20%; height: 100%; background: var(--fondo2); border: 1px solid #111; margin-left: 10px; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.l4right2 {width: 35%; max-width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; margin-left: 10px; }
+.l4r2-b1 {width: 100%; height: 70%; background: var(--fondo2); border: 1px solid #111; box-sizing: border-box; padding: 15px; font-family: 'Roboto', sans-serif; font-size: 11px; color: var(--textobase); text-align: justify; overflow: auto; line-height: 120%;}
+.l4r2-b1 b {color: var(--cas2);}
+.l4r2-b2 {width: 100%; height: 30%; box-sizing: border-box; display: flex; align-items: center; justify-content: center;}
+.l4r2-b2 > .pic {width: 25%; height: 95%;border: 1px solid #111; box-sizing: border-box; margin: 10px 2px 0px 2px;}
+.l4r2-b2 > .pic img {width: 100%; height: 100%; object-fit: cover; object-position: center; filter: grayscale(100%) contrast(80%) brightness(20%);}
+.l4rst {width: 100%; height: 13%; border-bottom: 1px solid #111; color: var(--cas); font-family: "UnifrakturMaguntia", cursive; text-transform: uppercase; font-size: 20px; text-align: center; border-top: 1px solid #111; padding: 5px 0; display: flex; align-items: center; justify-content: center;}
+.l4rst span {font-family: 'Geo', sans-serif; font-size: 12px; padding-left: 7px; color: #777; font-weight: bold; }
