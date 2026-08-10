@@ -60,6 +60,7 @@
     font-weight: 800;}
 .cas .rtbl-3 {color: var(--cas);}
 .cam .rtbl-3 {color: var(--cam);}
+.hos .rtbl-3 {color: var(--hos);}
 .rtbl-d {width: 15%; height: 100%; box-sizing: border-box; padding: 15px; font-family: "Bodoni Moda", serif; font-size: 15px; display: flex; aling-items: center; justify-content: center; border-right: 1px solid #111; text-align: center;}
 
 /* -- RELAS --*/
