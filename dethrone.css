@@ -131,7 +131,7 @@ display:none;
 }
 /*ÍNDICE BAÚL*/
 &[data-tablilla="indice"] {
-width:clamp(500px, 75%, 45rem);
+width:clamp(300px, 75%, 45rem);
 display:grid;
 grid-template-columns:.75fr 1fr;
 grid-template-rows:auto 3rem 7rem;
@@ -497,7 +497,7 @@ margin-top:1rem;
 /*ROL 1*/
 
 &[data-tablilla="rol1"] {
-width:clamp(300px, 60%, 30rem);
+width:clamp(500px, 60%, 30rem);
 & [data-section="main"] {
 background:var(--tbckg0);
 backdrop-filter:var(--ft-blur);
@@ -556,7 +556,7 @@ color:color-mix(in srgb, var(--group) 95%, var(--title));
 /*ROL2*/
 
 &[data-tablilla="rol2"] {
-width:clamp(300px, 70%, 35rem);
+width:clamp(500px, 70%, 35rem);
 & [data-section="header"] {
 gap:1px;
 align-items:stretch;
