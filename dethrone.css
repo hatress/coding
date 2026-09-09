@@ -131,7 +131,7 @@ display:none;
 }
 /*ÍNDICE BAÚL*/
 &[data-tablilla="indice"] {
-width:clamp(300px, 75%, 45rem);
+width:clamp(500px, 75%, 45rem);
 display:grid;
 grid-template-columns:.75fr 1fr;
 grid-template-rows:auto 3rem 7rem;
